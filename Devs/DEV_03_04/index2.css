@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang=en">
+<head>
+ <meta charset=UTF-8">
+ <title>Boxes and Boxes Kolton Baker </title>
+ <link rel="stylesheet" type="text/css" href="index1.css">
+ </head>
+ 
+ <body>
+ @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#header {
+  padding: 0px; margin: 0px;
+  height: 75px;
+  width: 100%;
+  background-color: #000;
+  color: #F4FF81;
+  font-family: Roboto;
+  text-align: right;
+  position: fixed;
+  top: 80px; left: 0;
+  z-index: 0;
+}
+
+#logo {
+  z-index: 1000;
+  color: red;
+  font-weight: bold;
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  background-color: lightgrey;
+  border-radius: 90px;
+  position: fixed;
+  top: 7px;
+  left: 7px;
+}
+
+#logo>p {
+  padding: 4px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#content{
+  color: #000;
+  padding-top: 75px;
+  height: 1000px;
+}
+
+.first-row {
+  width: 30%;
+  height: 160px;
+  background-color: red;
+  float: left;
+  margin: 10px;
+}
+
+
+#Chat-Box{
+  height: 50px;
+  width: 75px;
+  background-color: #000;
+  color: #F4FF81;
+  font-family: Roboto;
+  position: fixed;
+  bottom: 15%; 
+  right: 0px;
+}
+
+#footer{
+  height: 175px;
+  border: dashed 1px #000;
+  position: relative;
+  
+}
+ 
+
+
+</body>
